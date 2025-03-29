@@ -1,0 +1,17 @@
+.icon-menu {
+  width: 32px;
+  -webkit-mask-size: 32px;
+  display: inline-block;
+  background-color: #000;
+  -webkit-mask: url('images/menu.svg') no-repeat center;
+  cursor: pointer;
+}
+
+.icon-close {
+  width: 32px;
+  -webkit-mask-size: 32px;
+  display: inline-block;
+  background-color: #000;
+  -webkit-mask: url('images/close.svg') no-repeat center;
+  cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.nora-layout-1 {
+  display: flex;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.content {
+  width: 100vw;
+  border-left: 1px solid #f0f0f0;
+  min-height: 100vh;
+}
+.sp_header {
+  position: fixed;
+  display: initial;
+}
+.sp_header + * {
+  margin-top: 34px; /* spではヘッダーを表示するのでその分ずらす */
+}
+.sp_show {
+  display: initial;
+}
+.sp_show_block {
+  display: block;
+}
+.sp_menu {
+  background-color: #fff;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+@media screen and (min-width:@PC_MIN_WIDTHpx) {
+  .menu {
+    width: 250px;
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+  .sp_show {
+    display: none;
+  }
+  .sp_show_block {
+    display: none;
+  }
+  .sp_menu {
+    background-color: initial;
+    display: block;
+    position: initial;
+    top: initial;
+    left: initial;
+    z-index: initial;
+  }
+  .content {
+    width: calc(100% - 250px);
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .sp_header {
+    display: none;
+  }
+  .sp_header + * {
+    margin-top: 0px;
+}
+}
+

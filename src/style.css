@@ -1,0 +1,20 @@
+.menu-link {
+  font-size: 26px;
+  cursor: pointer;
+  padding: 4px;
+  padding-left: 8px;
+  margin-right: 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.menu-link:hover {
+  background-color: #f3f3f3;
+}
+
+
+@media screen and (min-width:@PC_MIN_WIDTHpx) {
+  .menu-link {
+    font-size: 22px;
+  }
+}
+

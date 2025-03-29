@@ -1,0 +1,10 @@
+/* ml20などはphpで動的に作っています */
+
+.sub-section {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width:@PC_MIN_WIDTHpx) {
+
+}
+

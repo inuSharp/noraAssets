@@ -1,0 +1,13 @@
+.w100 {
+  width: 100%;
+}
+
+/* max-width */
+.mw1000 {
+  max-width: 1000px;
+}
+
+@media screen and (min-width:@PC_MIN_WIDTHpx) {
+
+}
+
